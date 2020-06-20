@@ -1,11 +1,13 @@
 import React, { Component, Fragment } from 'react';
-import HomePage from "./components/home_page";
+import ShowList from "./components/ShowList/showList";
+import Card from './components/Card/card'
 
 class App extends Component {
   render() {
     return (
       <Fragment>
-        <HomePage/>
+        <ShowList/>
+        <Card />
       </Fragment>
     );
   }
