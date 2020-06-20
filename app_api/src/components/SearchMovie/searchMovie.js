@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Card from '../Card/card';
 import axios from 'axios';
-import './showList.css';
+import './searchMovie.css';
 
 class ShowList extends Component {
   state = {

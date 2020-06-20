@@ -1,12 +1,12 @@
 import React, { Component, Fragment } from 'react';
-import ShowList from "./components/ShowList/showList";
+import SearchMovie from "./components/SearchMovie/searchMovie";
 import Card from './components/Card/card'
 
 class App extends Component {
   render() {
     return (
       <Fragment>
-        <ShowList/>
+        <SearchMovie />
         <Card />
       </Fragment>
     );
