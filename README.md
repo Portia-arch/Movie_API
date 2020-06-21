@@ -9,9 +9,9 @@ and they'll return a JSON with all the data we need.
 
 To get a copy of the project up and running on your local machine for development and testing purposes please 
 
-Clone the repo first
-` bash Run npm i`
-` bash npm start`
+Clone the repo first run
+` npm i`<br />
+` npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
