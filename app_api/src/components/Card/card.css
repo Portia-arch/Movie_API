@@ -26,6 +26,7 @@
 }
 
 .movie-info {
+    color: white;
     display: flex;
     flex: 3;
     flex-direction: column;
@@ -37,6 +38,7 @@
 }
 
 .movie-info h2 {
+    color: white;
     text-transform: uppercase;
     margin: 0;
     padding: 0 0 10px;
@@ -44,16 +46,19 @@
 }
 
 .movie-info h1 {
+    color: white;
     font-weight: bold;
     font-size: 36px;
     margin: 20px 0 0;
 }
 
 .movie-info h4 {
+    color: white;
     margin: 20px 0 10px;
 }
 
 .movie-info p {
+    color: white;
     font-size: 14px;
     margin: 10px 0;
     width: 100%;
