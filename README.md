@@ -34,6 +34,17 @@ axios
 * [MATERIAL UI](https://material-ui.com/) - Framework used to create the components
 * [OMDBAPI](http://www.omdbapi.com/) - API generator
 
+## CheckList
+`Architecture`<br/>
+* which can be broken up into 5 subcategories: languages, API, frameworks, integrations and topology. I considered these as the main aspect to spend time exploring when building my web application.
+`CI (Continuous Integration)`<br/>
+* It allowed me to focus on building features/components instead of doing monotonous tasks such as testing, building and deploying, which left room for human error.
+`Performance`<br/>
+* I had to make sure that the loading time isn't long as user get bored while waiting for an app to load. Make sure that all my components are rendered and that all the api queries are executed.
+
+## Improvements
+*If i had more time I would have tried to use a database to list and store the movies that were supposed to be added. I would've been required to use postgres and express as they work best for me. But I still intend on making this improvemnt in my own time.
+
 
 ## Authors
 
