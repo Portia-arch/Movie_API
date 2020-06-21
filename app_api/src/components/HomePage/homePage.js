@@ -56,21 +56,20 @@ ScrollTop.propTypes = {
 };
 
 export default function BackToTop(props) {
+    
     return (
       <React.Fragment>
         <CssBaseline />
         <AppBar style={{ background: " rgba(107, 5, 65, 0.603)" }}>
           <Toolbar>
-            <Grid
-              justify="space-between" // Add it here :)
-              container
-              spacing={24}
-            >
+            <Grid justify="space-between" container spacing={24}>
               <Grid item>
                 <Typography variant="h5">Rumplestilkin's Movies</Typography>
               </Grid>
               <Grid>
-                <Button style={{ color: 'color: white' }}>Add Movies</Button>
+                <Button style={{ background: "rgba(255, 255, 255, 0.603)" }}>
+                  Add Movies
+                </Button>
               </Grid>
             </Grid>
           </Toolbar>
