@@ -1,6 +1,4 @@
-import React, { Component, Fragment } from 'react';
-// import SearchMovie from "./components/SearchMovie/searchMovie";
-// import Card from './components/Card/card';
+import React, { Component, Fragment } from 'react'
 import HomePage from './components/HomePage/homePage'
 
 class App extends Component {
@@ -8,8 +6,6 @@ class App extends Component {
     return (
       <Fragment>
         <HomePage />
-        {/* <SearchMovie />
-        <Card /> */}
       </Fragment>
     );
   }
